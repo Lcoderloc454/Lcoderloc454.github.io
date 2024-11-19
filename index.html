@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lecture Activity 6</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://pages.github.com/">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.3/examples/">
 </head>
 <body>
-    <h1>CSS Final Project Placeholder</h1>
+    <div class="container mt-5">
+        <h1 class="text-center">Redone Third party libraries</h1>
+        <div class="mt-4">
+            <button class="btn btn-primary me-2">Bootstrap Button</button>
+            <button class="btn btn-warning">Second Button</button>
+        </div>
+        <div class="alert alert-success mt-4">
+            This Bootstrap is allerted!
+        </div>
+        <span class="badge bg-secondary">Bootstrap Badge</span>
+        <div class="mt-4">
+            <i class="fa fa-cogs fa-2x"></i>
+            <p>FontAwsome is used for the Icons.</p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('animatebutton').addEventListener('click', function() {
+            const box = document.getElementById('animateBox');
+            box.classList.toggle('animate_flash');
+        });
+    </script>
 </body>
 </html>
