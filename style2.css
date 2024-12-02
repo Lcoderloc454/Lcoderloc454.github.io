@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#zen-intro header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+#zen-summary {
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h3 {
+    font-family: 'georgia',serif;
+    color: rgb(21, 21, 73);
+    font-weight: bold;
+}
+
+#zen-supporting .participation p {
+    font-size: 1.15em;
+    color: white;
+}
+
+a {
+    color: rgb(100, 100, 52);
+}
+
+#zen-benefits {
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: dimgray;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
